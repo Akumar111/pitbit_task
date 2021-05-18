@@ -24,7 +24,7 @@
           method="POST"
           enctype="multipart/form-data"
         >
-          <input type="file" multiple name="uploadfoles" />
+          <input type="file" multiple name="uploadfoles" accept="image/*"/>
           {% csrf_token %}
           <button type="submit" class="btn btn-danger">Image Upload</button>
         </form>
